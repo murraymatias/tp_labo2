@@ -1,0 +1,13 @@
+C:\repo\tp_labo2\TP1\TP1\bin\Debug\TP1.exe.config
+C:\repo\tp_labo2\TP1\TP1\bin\Debug\TP1.exe
+C:\repo\tp_labo2\TP1\TP1\bin\Debug\TP1.pdb
+C:\repo\tp_labo2\TP1\TP1\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\repo\tp_labo2\TP1\TP1\obj\Debug\TP1.FormCalculadora.resources
+C:\repo\tp_labo2\TP1\TP1\obj\Debug\TP1.Properties.Resources.resources
+C:\repo\tp_labo2\TP1\TP1\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\repo\tp_labo2\TP1\TP1\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\repo\tp_labo2\TP1\TP1\obj\Debug\TP1.exe
+C:\repo\tp_labo2\TP1\TP1\obj\Debug\TP1.pdb
+C:\repo\tp_labo2\TP1\TP1\bin\Debug\Entidades.dll
+C:\repo\tp_labo2\TP1\TP1\bin\Debug\Entidades.pdb
+C:\repo\tp_labo2\TP1\TP1\obj\Debug\MiCalculadora.csproj.CopyComplete
