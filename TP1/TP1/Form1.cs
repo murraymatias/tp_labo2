@@ -60,5 +60,15 @@ namespace TP1
             txtNumero2.Text = "";
             cmbOperador.Text = "";
         }
+
+        private void btnCovertirABinario_OnClick(object sender, EventArgs e)
+        {
+            lblResultado.Text = Numero.DecimalBinario(lblResultado.Text);
+        }
+
+        private void btnConvertirADecimal_OnClick(object sender, EventArgs e)
+        {
+            lblResultado.Text = Numero.BinarioDecimal(lblResultado.Text);
+        }
     }
 }
