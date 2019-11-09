@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Clases_Abstractas;
 using Excepciones;
+using Archivos;
 
 namespace Clases_Instanciables
 {
@@ -125,12 +126,17 @@ namespace Clases_Instanciables
 
         public static bool Guardar(Universidad uni)
         {
-            throw new NotImplementedException();
+            Xml<Universidad> serializer = new Xml<Universidad>();
+            string path = AppDomain.CurrentDomain.BaseDirectory + "Universidad.xml";
+            return serializer.Guardar(path, uni);
         }
 
         public Universidad Leer()
         {
-            throw new NotImplementedException();
+            Xml<Universidad> deserializer = new Xml<Universidad>();
+            string path = AppDomain.CurrentDomain.BaseDirectory + "Universidad.xml";
+            deserializer.Leer(path, out Universidad universidad);
+            return universidad;
         }
 
         private static string MostrarDatos(Universidad uni)

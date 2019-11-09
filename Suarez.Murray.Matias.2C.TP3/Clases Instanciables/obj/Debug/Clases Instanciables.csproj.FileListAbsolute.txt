@@ -8,3 +8,15 @@ C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanci
 C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
 C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
 C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Archivos.pdb

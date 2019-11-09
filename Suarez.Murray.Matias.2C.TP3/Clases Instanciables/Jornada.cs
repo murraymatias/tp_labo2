@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Clases_Abstractas;
 using Excepciones;
+using Archivos;
 
 namespace Clases_Instanciables
 {
@@ -78,12 +79,17 @@ namespace Clases_Instanciables
 
         public static bool Guardar(Jornada jornada)
         {
-            throw new NotImplementedException();
+            Texto texto = new Texto();
+            string path = AppDomain.CurrentDomain.BaseDirectory + "Texto.txt";
+            return texto.Guardar(path, jornada.ToString());
         }
 
         public static string Leer()
         {
-            throw new NotImplementedException();
+            Texto texto = new Texto();
+            string path = AppDomain.CurrentDomain.BaseDirectory + "Texto.txt";
+            texto.Leer(path, out string datos);
+            return datos;
         }
     }
 }

@@ -84,7 +84,7 @@ namespace Consola
             Console.ReadKey();
             Console.Clear();
             try
-            {
+            {                
                 Universidad.Guardar(uni);
                 Console.WriteLine("Archivo de Universidad guardado.");
             }

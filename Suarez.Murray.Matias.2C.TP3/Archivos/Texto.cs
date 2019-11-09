@@ -32,7 +32,7 @@ namespace Archivos
             {
                 using(StreamReader reader = new StreamReader(archivo))
                 {
-
+                    datos = reader.ReadToEnd();
                 }
                 return true;
             }
