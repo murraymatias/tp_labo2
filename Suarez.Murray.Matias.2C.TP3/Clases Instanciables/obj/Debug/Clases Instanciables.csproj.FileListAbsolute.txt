@@ -1,0 +1,10 @@
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb

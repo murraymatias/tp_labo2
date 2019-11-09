@@ -1,0 +1,13 @@
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Consola.exe.config
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Consola.exe
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Consola.pdb
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Clases Abstractas.dll
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Clases Instanciables.dll
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Excepciones.dll
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Clases Abstractas.pdb
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Clases Instanciables.pdb
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\bin\Debug\Excepciones.pdb
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\obj\Debug\Consola.exe
+C:\Users\murra\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP3\Consola\obj\Debug\Consola.pdb
