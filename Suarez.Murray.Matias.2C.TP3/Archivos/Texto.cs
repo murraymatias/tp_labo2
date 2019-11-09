@@ -10,6 +10,12 @@ namespace Archivos
 {
     public class Texto : IArchivo<string>
     {
+        /// <summary>
+        /// Guarda un string como archivo de texto
+        /// </summary>
+        /// <param name="archivo">Direccion del archivo</param>
+        /// <param name="datos">Hilo de texto a guardar</param>
+        /// <returns>True en caso de exito</returns>
         public bool Guardar(string archivo,string datos)
         {
             try
@@ -25,7 +31,12 @@ namespace Archivos
                 throw new ArchivosException(exception);
             }
         }
-
+        /// <summary>
+        /// Lee un arcivo de texto y retorna su contenido
+        /// </summary>
+        /// <param name="archivo">Direccion del archivo</param>
+        /// <param name="datos">Contenido devuelto</param>
+        /// <returns>True en caso de exito</returns>
         public bool Leer(string archivo,out string datos)
         {
             try

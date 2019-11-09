@@ -1,16 +1,16 @@
-CLASE DE Legislacion POR NOMBRE COMPLETO: Juarez, Roberto
+CLASE DE Programacion POR NOMBRE COMPLETO: Lopez, Juan
 NACIONALIDAD: Argentino
-LEGAJO: 2
+LEGAJO: 1
 
-CLASES DEL DIA Legislacion Legislacion
-NOMBRE COMPLETO: Hernandez, Miguel
-NACIONALIDAD: Extranjero
-LEGAJO: 4
-ESTADO CUENTA: AlDia
-TOMA CLASES DE Legislacion
-NOMBRE COMPLETO: Smith, Rodrigo
+CLASES DEL DIA Programacion Laboratorio
+NOMBRE COMPLETO: Lopez, Juan
 NACIONALIDAD: Argentino
-LEGAJO: 8
+LEGAJO: 1
+ESTADO CUENTA: Becado
+TOMA CLASES DE Programacion
+NOMBRE COMPLETO: Gonzalez, Carlos
+NACIONALIDAD: Argentino
+LEGAJO: 5
 ESTADO CUENTA: AlDia
-TOMA CLASES DE Legislacion
+TOMA CLASES DE Programacion
 

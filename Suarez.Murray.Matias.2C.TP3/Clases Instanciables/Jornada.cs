@@ -33,27 +33,56 @@ namespace Clases_Instanciables
             set { this.instructor = value; }
         }
 
+        /// <summary>
+        /// Inicializa una variable de tipo jornada, con su lista vacia.
+        /// </summary>
         private Jornada()
         {
             this.alumnos = new List<Alumno>();
         }
 
+
+        /// <summary>
+        /// Inicializa una variable de tipo jornada
+        /// </summary>
+        /// <param name="clase">Clase de la jornada</param>
+        /// <param name="instructor">Prefesor que da la clase</param>
         public Jornada(Universidad.EClases clase,Profesor instructor) : this()
         {
             this.clase = clase;
             this.instructor = instructor;
         }
 
+        /// <summary>
+        /// Comprueba si un alumno forma parte de la clase
+        /// </summary>
+        /// <param name="j">Jornada a comprobar</param>
+        /// <param name="a">Alumno a comprobar</param>
+        /// <returns></returns>
         public static bool operator ==(Jornada j,Alumno a)
         {
             return j.alumnos.Contains(a);
         }
 
+
+        /// <summary>
+        /// Comprueba que un alumno no pertenezca a la clase
+        /// </summary>
+        /// <param name="j">Jornada a comprobar</param>
+        /// <param name="a">Alumno a comprobar</param>
+        /// <returns></returns>
         public static bool operator !=(Jornada j,Alumno a)
         {
             return !(j == a);
         }
 
+
+        /// <summary>
+        /// Agrega un alumno no repetido a la clase
+        /// </summary>
+        /// <param name="j">Jornada</param>
+        /// <param name="a">Alumno a agregar</param>
+        /// <returns></returns>
         public static Jornada operator +(Jornada j, Alumno a)
         {
             if(j != a)
@@ -61,9 +90,14 @@ namespace Clases_Instanciables
                 j.alumnos.Add(a);
             }
 
-            return j;
+            throw new AlumnoRepetidoException();
         }
 
+
+        /// <summary>
+        /// Devuelve los datos de la jornada como texto
+        /// </summary>
+        /// <returns>string - los datos de la jornada</returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
@@ -77,6 +111,11 @@ namespace Clases_Instanciables
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Guarda una jornada en un archivo de texto
+        /// </summary>
+        /// <param name="jornada">Jornada a guardar en archivo</param>
+        /// <returns></returns>
         public static bool Guardar(Jornada jornada)
         {
             Texto texto = new Texto();
@@ -84,6 +123,10 @@ namespace Clases_Instanciables
             return texto.Guardar(path, jornada.ToString());
         }
 
+        /// <summary>
+        /// Lee una jornada de un archivo de texto
+        /// </summary>
+        /// <returns>Texto leido del archivo</returns>
         public static string Leer()
         {
             Texto texto = new Texto();

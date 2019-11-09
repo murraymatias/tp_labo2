@@ -12,6 +12,12 @@ namespace Archivos
 {
     public class Xml<T> : IArchivo<T>
     {
+        /// <summary>
+        /// Guarda un tipo de dato generico como xml
+        /// </summary>
+        /// <param name="archivo">Direccion del arhivo</param>
+        /// <param name="datos">Dato a guardar</param>
+        /// <returns>True en caso de exito</returns>
         public bool Guardar(string archivo,T datos)
         {
             try
@@ -28,7 +34,12 @@ namespace Archivos
                 throw new ArchivosException(exception);
             }
         }
-
+        /// <summary>
+        /// Lee un tipo de dato generico a partir de un xml
+        /// </summary>
+        /// <param name="archivo">Direccion del archivo</param>
+        /// <param name="datos">Datos leidos</param>
+        /// <returns>True en caso de exito</returns>
         public bool Leer(string archivo,out T datos)
         {
             try

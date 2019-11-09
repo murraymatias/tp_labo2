@@ -1,0 +1,21 @@
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Archivos.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Clases Abstractas.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Clases Instanciables.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Excepciones.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Archivos.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Clases Abstractas.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Clases Instanciables.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Excepciones.pdb
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\matias\Desktop\tp_labo2\Suarez.Murray.Matias.2C.TP3\UnitTest\obj\Debug\UnitTest.pdb
