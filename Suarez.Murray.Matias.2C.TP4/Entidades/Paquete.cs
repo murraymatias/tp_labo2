@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Entidades
 {
-    class Paquete : IMostrar<Paquete>
+    public class Paquete : IMostrar<Paquete>
     {
         private string direccionEntrega;
         private EEstado estado;
@@ -35,11 +35,18 @@ namespace Entidades
         {
             this.direccionEntrega = direccionEntrega;
             this.trackingID = trackingID;
+            this.estado = EEstado.Ingresado;
         }
 
         public void MockCicloDeVida()
         {
-            Thread.Sleep(4000);
+            while(this.estado != EEstado.Entregado)
+            {
+                Thread.Sleep(4000);
+                this.estado++;
+                this.InformaEstado.Invoke(this.estado, new EventArgs());
+            }
+            PaqueteDAO.Insertar(this);
         }
 
         public override string ToString()
@@ -73,6 +80,16 @@ namespace Entidades
         public enum EEstado
         {
             Ingresado,EnViaje,Entregado
+        }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
 }
