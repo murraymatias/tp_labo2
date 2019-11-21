@@ -4,9 +4,9 @@ C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\bin
 C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\bin\Debug\Entidades.dll
 C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\bin\Debug\Entidades.pdb
 C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
-C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\obj\Debug\MainCorreo.Form1.resources
 C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
 C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
 C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
 C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\obj\Debug\MainCorreo.exe
 C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources

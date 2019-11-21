@@ -7,22 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 namespace MainCorreo
 {
-    public partial class Form1 : Form
+    public partial class FrmPpal : System.Windows.Forms.Form
     {
-        public Form1()
+        private Correo correo;
+        public FrmPpal()
         {
             InitializeComponent();
         }
 
-        private void Form1_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (e.Button == MouseButtons.Right)
-            {
-                MessageBox.Show("Click derecho");
-            }
-        }
     }
 }

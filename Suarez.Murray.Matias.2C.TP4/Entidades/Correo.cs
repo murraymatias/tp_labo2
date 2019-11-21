@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Entidades
 {
-    class Correo : IMostrar<List<Paquete>>
+    public class Correo : IMostrar<List<Paquete>>
     {
         private List<Thread> mockPaquetes;
         private List<Paquete> paquetes;
