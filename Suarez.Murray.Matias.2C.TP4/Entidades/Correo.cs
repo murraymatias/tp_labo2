@@ -24,27 +24,44 @@ namespace Entidades
             this.paquetes = new List<Paquete>();
         }
 
+
+        /// <summary>
+        /// Finaliza todos los hilos
+        /// </summary>
         public void FinEntregas()
         {
             foreach(Thread thread in this.mockPaquetes)
             {
-                if (thread.IsAlive)
+                if (thread != null && thread.IsAlive)
                 {
                     thread.Abort();
                 }
             }
         }
 
+
+        /// <summary>
+        /// Muestra los datos de todo los envios
+        /// </summary>
+        /// <param name="elementos"></param>
+        /// <returns></returns>
         public string MostrarDatos(IMostrar<List<Paquete>> elementos)
         {
             StringBuilder sb = new StringBuilder();
             foreach(Paquete p in this.paquetes)
             {
-                sb.AppendFormat("{0} para {1} ({2})", p.TrackingID, p.DireccionEntrega, p.Estado.ToString());
+                sb.AppendFormat("{0} para {1} ({2})\n", p.TrackingID, p.DireccionEntrega, p.Estado.ToString());
             }
             return sb.ToString();
         }
 
+
+        /// <summary>
+        /// Agrega un paquete no repetido a la lista
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public static Correo operator +(Correo c,Paquete p)
         {
             foreach(Paquete paquete in c.Paquetes)

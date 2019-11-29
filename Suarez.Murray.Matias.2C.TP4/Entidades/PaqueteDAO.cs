@@ -22,6 +22,11 @@ namespace Entidades
             };
         }
 
+        /// <summary>
+        /// Guarda la informacion de un paquete en la base de datos
+        /// </summary>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public static bool Insertar(Paquete p)
         {
             try

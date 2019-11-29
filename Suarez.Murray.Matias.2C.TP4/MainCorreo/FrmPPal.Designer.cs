@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblEstadoEntregado = new System.Windows.Forms.Label();
             this.lblEstadoEnViaje = new System.Windows.Forms.Label();
@@ -36,15 +37,18 @@
             this.lstEstadoEnViaje = new System.Windows.Forms.ListBox();
             this.lstEstadoIngresado = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rtbMostrar = new System.Windows.Forms.RichTextBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnMostrarTodos = new System.Windows.Forms.Button();
-            this.mtxtTrackingID = new System.Windows.Forms.MaskedTextBox();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.lblTrackingID = new System.Windows.Forms.Label();
             this.lblDireccion = new System.Windows.Forms.Label();
+            this.lblTrackingID = new System.Windows.Forms.Label();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.mtxtTrackingID = new System.Windows.Forms.MaskedTextBox();
+            this.btnMostrarTodos = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.rtbMostrar = new System.Windows.Forms.RichTextBox();
+            this.mostrarToolStripMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.mostrarToolStripMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -91,6 +95,7 @@
             // 
             // lstEstadoEntregado
             // 
+            this.lstEstadoEntregado.ContextMenuStrip = this.mostrarToolStripMenu;
             this.lstEstadoEntregado.FormattingEnabled = true;
             this.lstEstadoEntregado.Location = new System.Drawing.Point(545, 39);
             this.lstEstadoEntregado.Name = "lstEstadoEntregado";
@@ -128,46 +133,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Paquete";
             // 
-            // rtbMostrar
+            // lblDireccion
             // 
-            this.rtbMostrar.Enabled = false;
-            this.rtbMostrar.Location = new System.Drawing.Point(13, 299);
-            this.rtbMostrar.Name = "rtbMostrar";
-            this.rtbMostrar.Size = new System.Drawing.Size(390, 140);
-            this.rtbMostrar.TabIndex = 2;
-            this.rtbMostrar.Text = "";
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(245, 43);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(91, 23);
-            this.btnAgregar.TabIndex = 0;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
-            // btnMostrarTodos
-            // 
-            this.btnMostrarTodos.Location = new System.Drawing.Point(245, 98);
-            this.btnMostrarTodos.Name = "btnMostrarTodos";
-            this.btnMostrarTodos.Size = new System.Drawing.Size(91, 23);
-            this.btnMostrarTodos.TabIndex = 1;
-            this.btnMostrarTodos.Text = "Mostrar Todos";
-            this.btnMostrarTodos.UseVisualStyleBackColor = true;
-            // 
-            // mtxtTrackingID
-            // 
-            this.mtxtTrackingID.Location = new System.Drawing.Point(54, 43);
-            this.mtxtTrackingID.Name = "mtxtTrackingID";
-            this.mtxtTrackingID.Size = new System.Drawing.Size(150, 20);
-            this.mtxtTrackingID.TabIndex = 2;
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.Location = new System.Drawing.Point(51, 100);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(153, 20);
-            this.txtDireccion.TabIndex = 3;
+            this.lblDireccion.AutoSize = true;
+            this.lblDireccion.Location = new System.Drawing.Point(51, 84);
+            this.lblDireccion.Name = "lblDireccion";
+            this.lblDireccion.Size = new System.Drawing.Size(52, 13);
+            this.lblDireccion.TabIndex = 5;
+            this.lblDireccion.Text = "Direccion";
             // 
             // lblTrackingID
             // 
@@ -178,14 +151,64 @@
             this.lblTrackingID.TabIndex = 4;
             this.lblTrackingID.Text = "Tracking ID";
             // 
-            // lblDireccion
+            // txtDireccion
             // 
-            this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(51, 84);
-            this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(52, 13);
-            this.lblDireccion.TabIndex = 5;
-            this.lblDireccion.Text = "Direccion";
+            this.txtDireccion.Location = new System.Drawing.Point(51, 100);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(153, 20);
+            this.txtDireccion.TabIndex = 3;
+            // 
+            // mtxtTrackingID
+            // 
+            this.mtxtTrackingID.Location = new System.Drawing.Point(54, 43);
+            this.mtxtTrackingID.Mask = "000-000-0000";
+            this.mtxtTrackingID.Name = "mtxtTrackingID";
+            this.mtxtTrackingID.Size = new System.Drawing.Size(150, 20);
+            this.mtxtTrackingID.TabIndex = 2;
+            // 
+            // btnMostrarTodos
+            // 
+            this.btnMostrarTodos.Location = new System.Drawing.Point(245, 98);
+            this.btnMostrarTodos.Name = "btnMostrarTodos";
+            this.btnMostrarTodos.Size = new System.Drawing.Size(91, 23);
+            this.btnMostrarTodos.TabIndex = 1;
+            this.btnMostrarTodos.Text = "Mostrar Todos";
+            this.btnMostrarTodos.UseVisualStyleBackColor = true;
+            this.btnMostrarTodos.Click += new System.EventHandler(this.btnMostrarTodos_Click);
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(245, 43);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(91, 23);
+            this.btnAgregar.TabIndex = 0;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // rtbMostrar
+            // 
+            this.rtbMostrar.Enabled = false;
+            this.rtbMostrar.Location = new System.Drawing.Point(13, 299);
+            this.rtbMostrar.Name = "rtbMostrar";
+            this.rtbMostrar.Size = new System.Drawing.Size(390, 140);
+            this.rtbMostrar.TabIndex = 2;
+            this.rtbMostrar.Text = "";
+            // 
+            // mostrarToolStripMenu
+            // 
+            this.mostrarToolStripMenu.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.mostrarToolStripMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarToolStripMenuItem});
+            this.mostrarToolStripMenu.Name = "mostrarToolStripMenu";
+            this.mostrarToolStripMenu.Size = new System.Drawing.Size(181, 48);
+            // 
+            // mostrarToolStripMenuItem
+            // 
+            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mostrarToolStripMenuItem.Text = "Mostrar";
+            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
             // FrmPpal
             // 
@@ -201,10 +224,12 @@
             this.Name = "FrmPpal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Correo UTN por Suarez.Murray.Matias.2C";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPpal_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.mostrarToolStripMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -226,6 +251,8 @@
         private System.Windows.Forms.MaskedTextBox mtxtTrackingID;
         private System.Windows.Forms.Button btnMostrarTodos;
         private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.ContextMenuStrip mostrarToolStripMenu;
+        private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem;
     }
 }
 

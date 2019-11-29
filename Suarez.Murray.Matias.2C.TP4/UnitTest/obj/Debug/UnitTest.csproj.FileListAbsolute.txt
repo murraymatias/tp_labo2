@@ -1,0 +1,15 @@
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Entidades.dll
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Entidades.pdb
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\matias\source\repos\tp_labo2\Suarez.Murray.Matias.2C.TP4\UnitTest\obj\Debug\UnitTest.pdb
